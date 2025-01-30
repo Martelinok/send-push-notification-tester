@@ -10,6 +10,18 @@ const port = 3000;
 const getRandomInt = (max) => {
     return Math.floor(1 + Math.random() * max);
 };
+// This is the body of the request
+// {
+//     "registrationToken": "FCM_TOKEN",
+//     "message": "Test N",
+//     "body": "Notification with node.js",
+//     "data": {
+//       "notification_type": "crypto_alert",
+//       "symbols": "BTC,ETH",
+//       "timestamp": "2025-01-28T12:00:00Z",
+//       "event_type": "notification_sent"
+//     }
+//   }
 
 app.post('/firebase/notification', async (req, res) => {
     try {
