@@ -74,6 +74,7 @@ http://localhost:3000/firebase/notification
       "timestamp": "2025-01-28T12:00:00Z",
       "event_type": "notification_sent"
     }
+}
 ```
 📌 Note: Replace "FCM_TOKEN" with a valid Firebase device token.
 
